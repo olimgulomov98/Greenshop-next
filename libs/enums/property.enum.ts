@@ -1,0 +1,22 @@
+export enum PropertyType {
+	SMALL = 'SMALL',
+	MEDIUM = 'MEDIUM',
+	LARGE = 'LARGE',
+}
+
+export enum PropertyStatus {
+	ACTIVE = 'ACTIVE',
+	SOLD = 'SOLD',
+	DELETE = 'DELETE',
+}
+
+export enum PropertyCategories {
+	HOUSEPLANTS = 'HOUSEPLANTS',
+	SEEDS = 'SEEDS',
+	GARDENING = 'GARDENING',
+	SUCCULENTS = 'SUCCULENTS',
+	TERRARIUMS = 'TERRARIUMS',
+	SMALLPLANTS = 'SMALLPLANTS',
+	POTTERPLANTS = 'POTTERPLANTS',
+	ACCESSORIES = 'ACCESSORIES',
+}
