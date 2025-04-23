@@ -85,7 +85,7 @@ const TopPropertyCard = (props: TopPropertyCardProps) => {
 						pushDetailHandler(property._id);
 					}}
 				></div>
-				<Box className={'under-info'}>
+				<Box component={'div'} className={'under-info'}>
 					<div className="info-wrp">
 						<strong
 							className={''}

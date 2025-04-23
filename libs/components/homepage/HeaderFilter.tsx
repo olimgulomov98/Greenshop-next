@@ -234,7 +234,7 @@ const HeaderFilter = (props: HeaderFilterProps) => {
 							<span>{searchFilter?.search?.categoryList ? searchFilter?.search?.categoryList[0] : t('Category')} </span>
 							<ExpandMoreIcon />
 						</Box>
-						<Box className={`box ${openType ? 'on' : ''}`} onClick={typeStateChangeHandler}>
+						<Box component={'div'} className={`box ${openType ? 'on' : ''}`} onClick={typeStateChangeHandler}>
 							<span> {searchFilter?.search?.typeList ? searchFilter?.search?.typeList[0] : t('Plant Size')} </span>
 							<ExpandMoreIcon />
 						</Box>
@@ -244,7 +244,7 @@ const HeaderFilter = (props: HeaderFilterProps) => {
 							<img src="/img/icons/tune.svg" alt="" />
 							<span>{t('Advanced')}</span>
 						</Box> */}
-						<Box className={'search-btn'} onClick={pushSearchHandler}>
+						<Box component={'div'} className={'search-btn'} onClick={pushSearchHandler}>
 							<img src="/img/icons/search_white.svg" alt="" />
 						</Box>
 					</Stack>
